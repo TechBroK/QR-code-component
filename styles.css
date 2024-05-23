@@ -1,29 +1,38 @@
-.bdy{
-    background-color: aliceblue;
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: outfit;
+    background-color:  hsl(212, 45%, 89%);
+
 }
 .container{
     width:320px;
-    padding:20px auto;
-    height: 450px;
-    margin: 20px auto;
+    padding:10px auto;
+    height: 1px;
+    margin: 20pc auto;
     display:flex;
     align-items: center; 
     text-align: center;
-    border: 1px solid #333;
+}
+p{
+    font-size:20px;
+    color: hsl(220, 15%, 55%);
 }
 .image{
-    width: 200px;
-    height: 200px;
-    padding: 1px;
+    width: 300px;
+    height: 280px;
+    padding: 9px;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 35px;
 
 }
+h1{
+    font-size:26px
+}
 .ju{
-    background-color: rgb(218, 236, 236);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
 }
 .attribution { 
     font-size: 11px; 
